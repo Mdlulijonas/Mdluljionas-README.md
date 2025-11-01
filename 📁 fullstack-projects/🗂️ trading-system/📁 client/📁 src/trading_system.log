@@ -1,0 +1,9 @@
+2025-10-05 16:29:47,467 - INFO - Initializing Forex Trading System...
+2025-10-05 16:29:47,468 - INFO - System validated with 72.00% accuracy
+2025-10-05 16:29:47,469 - INFO - Target: 10+ high-quality signals per week
+2025-10-05 16:29:58,196 - INFO - Generated signal for GBPUSD=X: BUY (Confidence: 77.84%)
+2025-10-05 16:30:01,773 - INFO - Starting console trading dashboard...
+2025-10-05 16:30:03,461 - INFO - Generated signal for GBPUSD=X: BUY (Confidence: 77.84%)
+2025-10-05 16:35:08,179 - INFO - Generated signal for GBPUSD=X: BUY (Confidence: 77.84%)
+2025-10-05 16:40:18,906 - INFO - Generated signal for GBPUSD=X: BUY (Confidence: 77.84%)
+2025-10-05 16:40:19,764 - INFO - Dashboard stopped by user
