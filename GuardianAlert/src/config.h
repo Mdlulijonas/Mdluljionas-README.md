@@ -1,0 +1,28 @@
+#ifndef CONFIG_REAL_H
+#define CONFIG_REAL_H
+
+// REAL SYSTEM CONFIGURATION - NO DUMMY DATA
+#define REAL_HARDWARE
+#define LIVE_GPS
+#define VOICE_RECOGNITION
+#define PHYSICAL_BUTTON
+#define LIVE_NOTIFICATIONS
+
+// Real API Keys (replace with your actual keys)
+#define TWILIO_ACCOUNT_SID "YOUR_REAL_ACCOUNT_SID"
+#define TWILIO_AUTH_TOKEN "YOUR_REAL_AUTH_TOKEN"
+#define TWILIO_WHATSAPP_NUMBER "+14155238886"
+
+// Real GPS Settings
+#define GPS_UPDATE_INTERVAL 5
+#define GPS_TIMEOUT 30
+
+// Voice Recognition Settings
+#define VOICE_SENSITIVITY 0.8
+#define VOICE_TIMEOUT 10
+
+// Emergency Settings
+#define MAX_CONTACTS 10
+#define ALERT_RETRY_COUNT 3
+
+#endif
