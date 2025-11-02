@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "label": "Build Voice Simulator",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o", "guardian_voice_sim.exe",
+                "simulator_ui.c", "guardian.c", "hal_virtual.c", "voice_engine.c",
+                "-I."
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
